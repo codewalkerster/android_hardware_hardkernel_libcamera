@@ -225,6 +225,7 @@ int CameraHardware::previewThread()
     }
     }
     mLock.unlock();
+    usleep(1000);
     }
 
     return NO_ERROR;
